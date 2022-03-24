@@ -17,25 +17,25 @@
  * KIND, either express or implied.  See the License for the
  * specific language governing permissions and limitations
  * under the License.
- * 
- * Used character transliteration from 
+ *
+ * Used character transliteration from
  * https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf
  */
 
 export default interface IIcao {
-    pattern: IIcaoPattern,
-    transliterations: IIcaoTransliteration[]
+  pattern: IIcaoPattern;
+  transliterations: IIcaoTransliteration[];
 }
 
 interface IIcaoTransliteration {
-    utf8: string;
-    mrz: string;
+  utf8: string;
+  mrz: string;
 }
 
 interface IIcaoPattern {
-    mrz: string,
-    findAllNonLetterNonNumber: string,
-    findAllSpaces: string,
-    findAllDeviding: string,
-    findAllLessThan: string
+  mrz: string;
+  findAllNonLetterNonNumber: string;
+  findAllSpaces: string;
+  findAllDeviding: string;
+  findAllLessThan: string;
 }
