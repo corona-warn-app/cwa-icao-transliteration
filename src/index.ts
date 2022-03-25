@@ -1,2 +1,4 @@
+import IIcao from "./IIcao"
+
 export * from "./icao";
-export * from "./IIcao";
+export { IIcao }
