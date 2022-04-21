@@ -1,5 +1,7 @@
 /*
- * Corona-Warn-App / cwa-quick-test-frontend
+ * based on the work of @janhoffmann
+ *
+ * Corona-Warn-App / cwa-icao-transliteration
  *
  * (C) 2022, T-Systems International GmbH
  *
