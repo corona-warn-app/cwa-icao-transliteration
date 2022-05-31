@@ -62,17 +62,6 @@ The full documentation for the Corona-Warn-App can be found in
 the [cwa-documentation](https://github.com/corona-warn-app/cwa-documentation) repository. The documentation repository
 contains technical documents, architecture information, and white papers related to this implementation.
 
-## Support and Feedback
-
-The following channels are available for discussions, feedback, and support requests:
-
-| Type                          | Channel                                                                                                                                                                                                                                  |
-| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **General Discussion**        | <a href="https://github.com/corona-warn-app/cwa-documentation/issues/new/choose" title="General Discussion"><img src="https://img.shields.io/github/issues/corona-warn-app/cwa-documentation/question.svg?style=flat-square"></a> </a>   |
-| **Concept Feedback**          | <a href="https://github.com/corona-warn-app/cwa-documentation/issues/new/choose" title="Open Concept Feedback"><img src="https://img.shields.io/github/issues/corona-warn-app/cwa-documentation/architecture.svg?style=flat-square"></a> |
-| **Quick Test Frontend Issue** | <a href="https://github.com/corona-warn-app/cwa-quick-test-frontend/issues" title="Open Issues"><img src="https://img.shields.io/github/issues/corona-warn-app/cwa-quick-test-frontend?style=flat"></a>                                  |
-| **Other Requests**            | <a href="mailto:cwa-opensource@telekom.de" title="Email CWA Team"><img src="https://img.shields.io/badge/email-CWA%20team-green?logo=mail.ru&style=flat-square&logoColor=white"></a>                                                     |
-
 ## How to Contribute
 
 Contribution and feedback is encouraged and always welcome. For more information about how to contribute, the project
