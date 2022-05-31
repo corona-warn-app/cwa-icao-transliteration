@@ -49,13 +49,14 @@ export const normalize = (input: string, icao: IIcao): string => {
 
 export const transliterate = (input: string, icao: IIcao) => {
   let output = '';
+  const mrzRegEx = parsePattern(icao.pattern.mrz);
 
   for (const char of input) {
     // set default value
     let transliteratedChar = char;
 
     // transliterating char if necessary
-    if (!parsePattern(icao.pattern.mrz).test(char)) {
+    if (!mrzRegEx.test(char)) {
       const translitaral = icao.transliterations.find((transliteration) => transliteration.utf8 === char);
 
       if (translitaral) transliteratedChar = translitaral.mrz;
